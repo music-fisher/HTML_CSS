@@ -1,0 +1,23 @@
+/* ブラウザが持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 10%;
+}
+/* header.headline ではなく.headlineでいいみたい。。 */
+header.headline {
+  font-size: 22px;
+}
+/* nav内の文字を中央寄せ 
+→.navにしたけど、navでいいみたい。クラス名指定する必要あるのか？*/
+.nav {
+  text-align: center;
+}
+
+/* listクラスだけでいいのか？番号消えないようpadding適用 */
+.list {
+  padding-left: 40px;
+}

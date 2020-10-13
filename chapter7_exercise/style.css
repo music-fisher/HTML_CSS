@@ -1,0 +1,33 @@
+/* ブラウザが持っているCSSを無効にする */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* メインビジュアル */
+.main-visual {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/mv.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.title {
+  color: #6c6b6b;
+  padding: 20px;
+}
+
+/* メイン */
+main {
+  margin: 50px auto;
+}
+.blog-box {
+  border-bottom: 1px solid #6c6b6b;
+  width: 840px;
+  padding: 30px;
+  margin: 0 auto;
+}
+.blog-text {
+  color: #6c6b6b;
+}

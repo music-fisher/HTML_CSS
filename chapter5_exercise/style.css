@@ -12,6 +12,8 @@ header {
 }
 /* ナビ */
 /* 線入れるの忘れてたので追記*/
+/* padding上下15pxは av-listでの指定の方がいい？
+nav-list-itemでの指定でもいい？*/
 .nav-list {
   text-align: center;
   border-bottom: 1px solid #848282;
@@ -28,25 +30,13 @@ header {
 /* flexboxにてflex-wrap適用 */
 /* margin指定必要 paddingとの違いがわからない。。。*/
 /* marginのauto指定で中央によるやつ！ */
-/* line-height: 350px;は今回は違った？ */
-/* line-heightなしの場合、高さ指定消したら真ん中あたりにきた */
 /*  mainにflex-wrap: wrapの適用で良かったみたい。。どこで折り返し？？ */
 .main {
   width: 800px;
   margin: 50px auto;
   text-align: center;
-}
-.green {
   display: flex;
-  flex-wrap: nowrap;
-}
-.yellow {
-  display: flex;
-  flex-wrap: nowrap;
-}
-.blue {
-  display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 /* それぞれの色指定 */
 .box1 {

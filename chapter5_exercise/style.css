@@ -19,6 +19,7 @@ nav-list-itemでの指定でもいい？*/
   border-bottom: 1px solid #848282;
   border-top: 1px solid #848282;
 }
+
 /* list-styleの設定は必要？ */
 /* nav-list-item のmarginで指定？ */
 .nav-list-item {
@@ -30,7 +31,7 @@ nav-list-itemでの指定でもいい？*/
 /* flexboxにてflex-wrap適用 */
 /* margin指定必要 paddingとの違いがわからない。。。*/
 /* marginのauto指定で中央によるやつ！ */
-/*  mainにflex-wrap: wrapの適用で良かったみたい。。どこで折り返し？？ */
+
 .main {
   width: 800px;
   margin: 50px auto;
